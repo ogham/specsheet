@@ -12,6 +12,8 @@
 </a>
 </div>
 
+![Screenshots of Specsheet](screenshot.png)
+
 ---
 
 Specsheet is a command-line utility that abstracts over the general testing pattern: running commands, examining their output, and collecting the results.
