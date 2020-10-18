@@ -1,0 +1,6 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "Accept-Encoding: br" "https://eu.httpbin.org/brotli"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "Accept-Encoding: deflate" "https://eu.httpbin.org/deflate"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "Accept-Encoding: crush" "https://eu.httpbin.org/gzip"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "Accept-Encoding: gzip" "https://eu.httpbin.org/gzip"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "Accept-Encoding: absent" "https://eu.httpbin.org/status/204"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "Accept-Encoding: gzip" "https://eu.httpbin.org/status/204"

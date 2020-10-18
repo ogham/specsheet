@@ -1,0 +1,26 @@
+
+   [4;38;5;248mcheck-tests/tap/tap.toml[0m
+ [1;32m✔[0m TAP tests for command [1m‘cat all-good.tap’[0m
+   [32m✔[0m TAP test #1 passed
+   [32m✔[0m TAP test #2 passed (did a thing)
+   [32m✔[0m TAP test #3 passed (did another thing)
+   [32m✔[0m TAP test #4 passed (a further thing was done)
+   [32m✔[0m TAP test #5 passed
+   [32m✔[0m Correct number (5) of tests run
+ [1;31m✘[0m TAP tests for command [1m‘cat mixed-bag.tap’[0m
+   [32m✔[0m TAP test #1 passed
+   [31m✘[0m TAP test #2 failed
+   [32m✔[0m TAP test #3 passed (this part worked)
+   [31m✘[0m TAP test #4 failed (this part did not)
+   [32m✔[0m Correct number (4) of tests run
+ [1;32m✔[0m TAP tests for command [1m‘cat missing-count.tap’[0m
+   [32m✔[0m TAP test #1 passed
+   [32m✔[0m TAP test #2 passed
+   [32m✔[0m TAP test #3 passed
+ [1;31m✘[0m TAP tests for command [1m‘cat too-few.tap’[0m
+   [32m✔[0m TAP test #1 passed
+   [32m✔[0m TAP test #2 passed
+   [31m✘[0m Incorrect number of tests run (expected 6, got 2)
+ [1;32m✔[0m TAP tests for command [1m‘line=ok 1 echo $line’[0m
+   [32m✔[0m TAP test #1 passed
+   [1;31m3/5 successful[0m

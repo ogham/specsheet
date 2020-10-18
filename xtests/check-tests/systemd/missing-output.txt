@@ -1,0 +1,11 @@
+
+   [4;38;5;248mcheck-tests/systemd/missing.toml[0m
+ [1;31m✘[0m Service [1m‘tcp-server’[0m is running
+   [31m✘[0m it is missing
+ [1;31m✘[0m Service [1m‘tcp-server’[0m is running
+   [31m✘[0m it is missing
+ [1;31m✘[0m Service [1m‘tcp-server’[0m is stopped
+   [31m✘[0m it is missing
+ [1;32m✔[0m Service [1m‘tcp-server’[0m is missing
+   [32m✔[0m it is missing
+   [1;31m1/4 successful[0m

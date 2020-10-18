@@ -1,0 +1,27 @@
+
+   [4;38;5;248mcheck-tests/cmd/errors.toml[0m
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘shell’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘stderr’ value ‘""’ is invalid (Empty string)
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘stderr’ value ‘’ is invalid (No conditions)
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘shell’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘aoesnuaouen’ is unknown
+ [1;32m✔[0m Command [1m‘((((((((((((((’[0m executes
+   [32m✔[0m command was executed
+ [1;31m✘[0m Command [1m‘ls’[0m executes with stdout matching file [1m‘nonexist’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout IO error reading file nonexist: No such file or directory (os error 2)
+ [1;31m✘[0m Command [1m‘ls’[0m executes with stderr matching file [1m‘also-nonexist’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr IO error reading file also-nonexist: No such file or directory (os error 2)
+ [1;31m✘[0m Command [1m‘ls’[0m executes with stderr matching regex [1m‘/((((((((((((/’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr invalid regex: ‘regex parse error:
+    (?m)((((((((((((
+                   ^
+error: unclosed group’
+ [1;32m✔[0m Command [1m‘"’[0m returns [1m‘2’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m status code matches
+ [1;32m✔[0m Command [1m‘nothing’[0m executes
+   [32m✔[0m command was executed
+   [1;31m3/6 successful[0m

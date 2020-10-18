@@ -1,0 +1,19 @@
+[[systemd]]
+service = 'http-server'
+
+[[systemd]]
+service = 'http-server'
+state = 'running'
+
+[[systemd]]
+service = 'http-server'
+state = 'stopped'
+
+[[systemd]]
+service = 'http-server'
+state = 'missing'
+
+# todo: tests for stopped
+
+[[systemd]]
+service = 'udp-server'

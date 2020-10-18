@@ -1,0 +1,4 @@
+ [36m?[0m [1;31mread error:[0m [36m[tcp][0m Parameter ‘port’ value ‘99999’ is invalid (it must be between 1 and 65535)
+ [36m?[0m [1;31mread error:[0m [36m[tcp][0m Parameter ‘state’ value ‘"filtered"’ is invalid (it must be ‘open’ or ‘closed’)
+ [36m?[0m [1;31mread error:[0m [36m[tcp][0m Parameter ‘port’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[tcp][0m Parameter ‘ouesntioeibunti’ is unknown

@@ -1,0 +1,15 @@
+
+   [4;38;5;248mrewrite-tests/http/https-downgrade.toml[0m
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/status?s=200’[0m has status [1m‘200’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m HTTP status matches
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/status?s=404’[0m has status [1m‘200’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m HTTP status is ‘404’
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/redirect?l=http://example.org/somewhere-else’[0m redirects to [1m‘http://localhost:2002/somewhere-else’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Location header is ‘http://example.org/somewhere-else’
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/redirect?l=http://example.org/somewhere-else’[0m redirects to [1m‘http://example.org/somewhere-else’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Location header matches
+   [1;31m2/4 successful[0m

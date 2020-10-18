@@ -1,0 +1,1 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/delay/6"

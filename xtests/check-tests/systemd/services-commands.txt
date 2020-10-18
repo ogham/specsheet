@@ -1,0 +1,2 @@
+"systemctl" "status" "http-server" "--no-pager"
+"systemctl" "status" "udp-server" "--no-pager"

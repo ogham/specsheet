@@ -1,0 +1,4 @@
+ [36m?[0m [1;31mread error:[0m [36m[dns][0m Parameter ‘type’ value ‘"FLIP"’ is invalid (it must be a string such as ‘A’, ‘MX’, ‘SRV’...)
+ [36m?[0m [1;31mread error:[0m [36m[dns][0m Parameter ‘nameserver’ value ‘"the best nameserver in the world!!"’ is invalid (it must be an IP address)
+ [36m?[0m [1;31mread error:[0m [36m[dns][0m Parameter ‘domain’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[dns][0m Parameter ‘oedusoteubeo’ is unknown

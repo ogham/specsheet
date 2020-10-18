@@ -1,0 +1,5 @@
+"sh" "-c" "cat all-good.tap"
+"sh" "-c" "cat missing-count.tap"
+"sh" "-c" "cat mixed-bag.tap"
+"sh" "-c" "cat too-few.tap"
+"sh" "-c" "echo $line"

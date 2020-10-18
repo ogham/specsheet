@@ -1,0 +1,16 @@
+# Successes
+
+[[http]]
+url = 'https://eu.httpbin.org/redirect-to?url=http://example.com'
+redirect_to = 'http://example.com'
+
+
+# Failures
+
+[[http]]
+url = 'https://eu.httpbin.org/redirect-to?url=http://example.com'
+redirect_to = 'http://somewhere.else'
+
+[[http]]
+url = 'https://eu.httpbin.org/status/200'
+redirect_to = 'http://nowhere/'

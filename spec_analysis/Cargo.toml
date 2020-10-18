@@ -1,0 +1,8 @@
+[package]
+name = "spec_analysis"
+version = "0.1.0-pre"
+authors = ["Benjamin Sago <ogham@bsago.me>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"

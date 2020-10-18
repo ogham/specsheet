@@ -1,0 +1,41 @@
+# successes
+
+[[cmd]]
+shell = "echo yo"
+stdout = { string = "yo" }
+
+[[cmd]]
+shell = "echo yo >&2"
+stderr = { string = "yo" }
+
+
+# stdout failures
+
+[[cmd]]
+shell = "echo hi"
+stdout = { string = "yo" }
+
+[[cmd]]
+shell = "echo hi"
+stderr = { string = "yo" }
+
+[[cmd]]
+shell = "echo hi"
+stdout = { string = "yo" }
+stderr = { string = "yo" }
+
+
+# stderr failures
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { string = "yo" }
+
+[[cmd]]
+shell = "echo hi >&2"
+stderr = { string = "yo" }
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { string = "yo" }
+stderr = { string = "yo" }

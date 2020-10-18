@@ -1,0 +1,28 @@
+# Successes
+
+[[http]]
+url = 'https://eu.httpbin.org/gzip'
+encoding = "gzip"
+
+[[http]]
+url = 'https://eu.httpbin.org/deflate'
+encoding = "deflate"
+
+[[http]]
+url = 'https://eu.httpbin.org/brotli'
+encoding = "br"
+
+[[http]]
+url = 'https://eu.httpbin.org/status/204'
+encoding = "absent"
+
+
+# Failures
+
+[[http]]
+url = 'https://eu.httpbin.org/gzip'
+encoding = "crush"
+
+[[http]]
+url = 'https://eu.httpbin.org/status/204'
+encoding = "gzip"

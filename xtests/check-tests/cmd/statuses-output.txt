@@ -1,0 +1,23 @@
+
+   [4;38;5;248mcheck-tests/cmd/statuses.toml[0m
+ [1;32m✔[0m Command [1m‘/testcases/returner.rb 4’[0m returns [1m‘4’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m status code matches
+ [1;32m✔[0m Command [1m‘/testcases/returner.rb 255’[0m returns [1m‘255’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m status code matches
+ [1;32m✔[0m Command [1m‘/testcases/returner.rb 0’[0m returns [1m‘0’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m status code matches
+ [1;32m✔[0m Command [1m‘/testcases/returner.rb 3’[0m executes
+   [32m✔[0m command was executed
+ [1;31m✘[0m Command [1m‘/testcases/returner.rb 4’[0m returns [1m‘99’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m command exited with status code ‘4’
+ [1;31m✘[0m Command [1m‘/testcases/returner.rb 0’[0m returns [1m‘4’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m command exited with status code ‘0’
+ [1;31m✘[0m Command [1m‘/testcases/returner.rb 4’[0m returns [1m‘0’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m command exited with status code ‘4’
+   [1;31m4/7 successful[0m

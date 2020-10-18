@@ -1,0 +1,39 @@
+
+   [4;38;5;248mcheck-tests/http/types.toml[0m
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/type?ct=text/html’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Content-Type matches
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/type?ct=image/png’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type is ‘image/png’
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/type?ct=application%2Fatom%2Bxml’[0m has content type [1m‘ATOM’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Content-Type matches
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/type?ct=text/html’[0m has content type [1m‘PNG’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type is ‘text/html’
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/type?ct=image/png’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type is ‘image/png’
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/type?ct=font/woff’[0m has content type [1m‘WOFF’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Content-Type matches
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/type?ct=application/font-woff’[0m has content type [1m‘WOFF’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Content-Type matches
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/type?ct=application/javascript’[0m has content type [1m‘JS’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Content-Type matches
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/type?ct=text/javascript’[0m has content type [1m‘JS’[0m
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m Content-Type matches
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/type?ct=invalid’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type ‘invalid’ is not a valid MIME type
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/type?ct=///////////’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type ‘///////////’ is not a valid MIME type
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/redirect?l=nowhere’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type header is missing
+   [1;31m6/12 successful[0m

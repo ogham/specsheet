@@ -1,0 +1,30 @@
+[[hash]]
+path = "some_file.txt"
+algorithm = "MD5"
+hash = "89850e791dd0bcd709c2add2ad98e6c0"
+
+[[hash]]
+path = "some_file.txt"
+algorithm = "SHA1"
+hash = "3d6fc9be2c57d638549fc7865e7705dd6792caf0"
+
+[[hash]]
+path = "some_file.txt"
+algorithm = "SHA224"
+hash = "78936446df83e50c3921386f66a4012fee0986563c33f2ed1a0fc3a8"
+
+[[hash]]
+path = "some_file.txt"
+algorithm = "SHA256"
+hash = "007c5f898be254719f225a56be64ed9e25cfe083eb9544b88828572d84b1bb80"
+
+[[hash]]
+path = "some_file.txt"
+algorithm = "SHA384"
+hash = "a03e4289286dc0b47e161d551b6dd609389036f18b9cf20d218897b088f7277029c05059733d83d999ffa44f3f90b30b"
+
+[[hash]]
+path = "some_file.txt"
+algorithm = "SHA512"
+hash = "397a13b14704b538e97cece549ca5df1b73a7cd8c9f9cf6ac906ab95d370cc335cc40b5528164a2cf875cc1291b57c4694ff41e2f9f88b56d39998e416d47bd3"
+

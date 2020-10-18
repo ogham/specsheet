@@ -1,0 +1,25 @@
+# successes
+
+[[cmd]]
+shell = "echo yo"
+stdout = { empty = false }
+
+[[cmd]]
+shell = "echo yo >&2"
+stderr = { empty = false }
+
+
+# failures
+
+[[cmd]]
+shell = "echo -n"
+stdout = { empty = false }
+
+[[cmd]]
+shell = "echo -n"
+stderr = { empty = false }
+
+[[cmd]]
+shell = "echo -n"
+stdout = { empty = false }
+stderr = { empty = false }

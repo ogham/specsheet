@@ -1,0 +1,2 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "X-Waffles: tasty" "http://localhost:2002/header"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "-H" "X-Waffles: tasty" "http://localhost:2002/status?s=200"

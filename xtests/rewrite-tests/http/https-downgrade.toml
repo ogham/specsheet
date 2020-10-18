@@ -1,0 +1,20 @@
+# https downgraded to http
+
+[[http]]
+url = 'https://example.org/status?s=200'
+status = 200
+
+[[http]]
+url = 'https://example.org/status?s=404'
+status = 200
+
+
+# redirects to http
+
+[[http]]
+url = 'https://example.org/redirect?l=http://example.org/somewhere-else'
+redirect_to = 'https://example.org/somewhere-else'
+
+[[http]]
+url = 'https://example.org/redirect?l=http://example.org/somewhere-else'
+redirect_to = 'http://example.org/somewhere-else'

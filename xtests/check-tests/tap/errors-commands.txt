@@ -1,0 +1,3 @@
+ [36m?[0m [1;31mread error:[0m [36m[tap][0m Parameter ‘shell’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[tap][0m Parameter ‘shell’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[tap][0m Parameter ‘eaosnuthoaesnueo’ is unknown

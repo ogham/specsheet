@@ -1,0 +1,4 @@
+"sh" "-c" "echo hi"
+"sh" "-c" "echo hi >&2"
+"sh" "-c" "echo yo"
+"sh" "-c" "echo yo >&2"

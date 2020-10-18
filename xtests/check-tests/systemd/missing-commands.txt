@@ -1,0 +1,1 @@
+"systemctl" "status" "tcp-server" "--no-pager"

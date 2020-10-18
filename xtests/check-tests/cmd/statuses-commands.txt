@@ -1,0 +1,4 @@
+"sh" "-c" "/testcases/returner.rb 0"
+"sh" "-c" "/testcases/returner.rb 255"
+"sh" "-c" "/testcases/returner.rb 3"
+"sh" "-c" "/testcases/returner.rb 4"

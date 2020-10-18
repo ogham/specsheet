@@ -1,0 +1,18 @@
+# success
+[[http]]
+url = 'http://localhost:2002/header'
+headers = { 'X-Waffles' = 'tasty' }
+also = { 'X-Waffles' = 'tasty' }
+
+# failure
+[[http]]
+url = 'http://localhost:2002/header'
+headers = { 'X-Waffles' = 'tasty' }
+also = { 'X-Waffles' = 'NOT tasty' }
+
+# header missing
+[[http]]
+url = 'http://localhost:2002/status?s=200'
+content_type = "HTML"
+headers = { 'X-Waffles' = 'tasty' }
+also = { 'X-Waffles' = 'should be tasty' }

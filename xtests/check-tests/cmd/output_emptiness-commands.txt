@@ -1,0 +1,3 @@
+"sh" "-c" "echo -n"
+"sh" "-c" "echo hi"
+"sh" "-c" "echo hi >&2"

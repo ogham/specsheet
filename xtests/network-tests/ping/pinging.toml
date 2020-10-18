@@ -1,0 +1,23 @@
+[[ping]]
+target = '9.9.9.9'
+
+[[ping]]
+target = '9.9.9.9'
+state = 'responds'
+
+[[ping]]
+target = '9.9.9.9'
+state = 'no-response'
+
+
+
+[[ping]]
+target = '10.255.255.255'
+
+[[ping]]
+target = '10.255.255.255'
+state = 'responds'
+
+[[ping]]
+target = '10.255.255.255'
+state = 'no-response'

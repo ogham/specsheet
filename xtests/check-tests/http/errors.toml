@@ -1,0 +1,19 @@
+[[http]]
+url = 'http://localhost:999'
+status = 200
+
+[[http]]
+status = 200
+
+[[http]]
+url = ''
+status = 200
+
+[[http]]
+url = 'http://localhost:2001'
+content_type = 'NEWS'
+
+[[http]]
+
+[[http]]
+aoenstuoue = "hbeoueo"

@@ -1,0 +1,15 @@
+[[dns]]
+domain = 'one.one.one.one'
+type = 'A'
+value = '1.1.1.1'
+
+[[dns]]
+domain = 'one.one.one.one'
+type = 'A'
+nameserver = '1.1.1.1'
+value = '1.1.1.1'
+
+[[dns]]
+domain = 'oaenstubnoueoutoueo.tnaosuitembuhknouxbhtediokt.oeuntbesoub'
+type = 'AAAA'
+value = '1.1.1.1'

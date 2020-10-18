@@ -1,0 +1,41 @@
+# successes
+
+[[cmd]]
+shell = "echo yo"
+stdout = { file = "greeting.txt" }
+
+[[cmd]]
+shell = "echo yo >&2"
+stderr = { file = "greeting.txt" }
+
+
+# stdout failures
+
+[[cmd]]
+shell = "echo hi"
+stdout = { file = "greeting.txt" }
+
+[[cmd]]
+shell = "echo hi"
+stderr = { file = "greeting.txt" }
+
+[[cmd]]
+shell = "echo hi"
+stdout = { file = "greeting.txt" }
+stderr = { file = "greeting.txt" }
+
+
+# stderr failures
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { file = "greeting.txt" }
+
+[[cmd]]
+shell = "echo hi >&2"
+stderr = { file = "greeting.txt" }
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { file = "greeting.txt" }
+stderr = { file = "greeting.txt" }

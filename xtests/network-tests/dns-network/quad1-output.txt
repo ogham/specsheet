@@ -1,0 +1,9 @@
+
+   [4;38;5;248mnetwork-tests/dns-network/quad1.toml[0m
+ [1;32m✔[0m DNS [1m‘A’[0m record for [1m‘one.one.one.one’[0m exists with value [1m‘1.1.1.1’[0m
+   [32m✔[0m there is a record present
+ [1;32m✔[0m DNS [1m‘A’[0m record for [1m‘one.one.one.one’[0m exists with value [1m‘1.1.1.1’[0m (according to 1.1.1.1)
+   [32m✔[0m there is a record present
+ [1;31m✘[0m DNS [1m‘AAAA’[0m record for [1m‘oaenstubnoueoutoueo.tnaosuitembuhknouxbhtediokt.oeuntbesoub’[0m exists with value [1m‘1.1.1.1’[0m
+   [31m✘[0m the record is missing
+   [1;31m2/3 successful[0m

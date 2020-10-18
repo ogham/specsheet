@@ -1,0 +1,15 @@
+
+   [4;38;5;248mcheck-tests/passwd/users.toml[0m
+ [1;32m✔[0m User [1m‘vagrant’[0m exists with login shell [1m‘/bin/bash’[0m and is a member of groups [1m‘adm’[0m and [1m‘vagrant’[0m and [1m‘cdrom’[0m
+   [32m✔[0m user exists
+   [32m✔[0m user has correct login shell
+   [32m✔[0m user is member of group ‘adm’
+   [32m✔[0m user is member of group ‘vagrant’
+   [32m✔[0m user is member of group ‘cdrom’
+ [1;31m✘[0m User [1m‘vagrant’[0m exists with login shell [1m‘/bin/zsh’[0m and is a member of groups [1m‘adminz’[0m
+   [32m✔[0m user exists
+   [31m✘[0m user has different login shell
+   [31m✘[0m user is not member of group ‘adminz’
+ [1;31m✘[0m User [1m‘jarls’[0m exists
+   [31m✘[0m user is missing
+   [1;31m1/3 successful[0m

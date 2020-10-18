@@ -1,0 +1,4 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/500-with-location?l=http://localhost:2002/somewhere-else"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/redirect?l=http://localhost:2002/somewhere-else"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/redirect?l=http://localhost:2002/the-wrong-place"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/status?s=302"

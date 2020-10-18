@@ -1,0 +1,13 @@
+
+   [4;38;5;248mcheck-tests/systemd/services.toml[0m
+ [1;32m✔[0m Service [1m‘http-server’[0m is running
+   [32m✔[0m it is running
+ [1;32m✔[0m Service [1m‘http-server’[0m is running
+   [32m✔[0m it is running
+ [1;31m✘[0m Service [1m‘http-server’[0m is stopped
+   [31m✘[0m it is running
+ [1;31m✘[0m Service [1m‘http-server’[0m is missing
+   [31m✘[0m it is running
+ [1;32m✔[0m Service [1m‘udp-server’[0m is running
+   [32m✔[0m it is running
+   [1;31m3/5 successful[0m

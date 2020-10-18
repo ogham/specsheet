@@ -1,0 +1,3 @@
+"sh" "-c" "echo -n"
+"sh" "-c" "echo yo"
+"sh" "-c" "echo yo >&2"

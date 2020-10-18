@@ -1,0 +1,27 @@
+# port 2001 serves UDP
+
+[[udp]]
+port = 2001
+
+[[udp]]
+port = 2001
+state = 'no-response'
+
+[[udp]]
+port = 2001
+state = 'responds'
+
+
+# port 2002 serves TCP
+
+[[udp]]
+port = 2002
+
+
+# port 404 serves nothing
+
+[[udp]]
+port = 404
+
+# if the UDP server’s messed up, try debugging it by monitoring UDP packets:
+#     sudo tcpdump -i lo udp -vv -X

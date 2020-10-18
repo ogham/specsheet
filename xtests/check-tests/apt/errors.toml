@@ -1,0 +1,12 @@
+[[apt]]
+package = "stuff"
+state = "available but not installed yet"
+
+[[apt]]
+package = ""
+state = "installed"
+
+[[apt]]
+
+[[apt]]
+aontehuseaonu = "oesuoeeounte"

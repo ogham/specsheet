@@ -1,0 +1,2 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/redirect-to?url=http://example.com"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/status/200"

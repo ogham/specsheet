@@ -1,0 +1,37 @@
+[[cmd]]
+shell = ""
+
+[[cmd]]
+shell = "(((((((((((((("
+
+[[cmd]]
+shell = "ls"
+stderr = { string = "" }
+
+[[cmd]]
+shell = "ls"
+stdout = { file = "nonexist" }
+
+[[cmd]]
+shell = "ls"
+stderr = { file = "also-nonexist" }
+
+[[cmd]]
+shell = "ls"
+stderr = { regex = "((((((((((((" }
+
+[[cmd]]
+shell = "ls"
+stderr = { }
+
+[[cmd]]
+shell = "\""
+status = 2
+
+[[cmd]]
+shell = "nothing"
+
+[[cmd]]
+
+[[cmd]]
+aoesnuaouen = "eonuboaseuteo"

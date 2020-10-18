@@ -1,0 +1,3 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/redirect?l=http://example.org/somewhere-else"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/status?s=200"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:2002/status?s=404"

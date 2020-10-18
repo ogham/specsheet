@@ -1,0 +1,52 @@
+\4mUsage:\0m
+  \1mspecsheet\0m \1;33m[OPTIONS]\0m [--] \32m<input-files>\0m
+
+\4mExamples:\0m
+  \1mspecsheet\0m \32mchecks.toml\0m                           Run all the checks in the given file
+  \1mspecsheet\0m \32mchecks.toml\0m \1;33m--html-doc\0m \33mresults.html\0m   Run checks and create a results document
+  \1mspecsheet\0m \32mchecks.toml\0m \1;33m-T\0m \33mhttp\0m \1;33m-t\0m \33mquick\0m          Only run certain types or tags
+  \1mspecsheet\0m \32mchecks.toml\0m \1;33m--continual\0m \1;33m--delay\0m=\33m1m\0m    Continuously run a check every minute
+
+\4mRunning modes:\0m
+  \32m<input-files>\0m                One or more TOML files full of checks to run
+  \1;33m-c\0m, \1;33m--syntax-check\0m           Don't run, just check the syntax of the input files
+  \1;33m-C\0m, \1;33m--list-commands\0m          Don't run, just list the commands that would be executed
+  \1;33m-l\0m, \1;33m--list-checks\0m            Don't run, just list the checks that would be run
+  \1;33m--list-tags\0m                  Don't run, just list the tags defined in the documents
+  \1;33m--random-order\0m               Run the checks in a random order
+  \1;33m--continual\0m                  Run the checks indefinitely
+  \1;33m--delay\0m=\33mDURATION\0m             Amount of time to delay between checks
+  \1;33m-j\0m, \1;33m--threads\0m=\33mNUM\0m            Number of threads to run in parallel
+  \1;33m-O\0m, \1;33m--option\0m=\33mKEY=VAL\0m         Set an option or override something in the environment
+  \1;33m-R\0m, \1;33m--rewrite\0m=\33mTHIS->THAT\0m     Add a rule to rewrite values in input documents
+  \1;33m-z\0m, \1;33m--analysis\0m               Run analysis after running checks if there are errors
+
+\4mSide process options:\0m
+  \1;33m-x\0m, \1;33m--exec\0m=\33mCMD\0m               Process to run in the background during execution
+  \1;33m--exec-delay\0m=\33mDURATION\0m        Wait an amount of time before running checks
+  \1;33m--exec-port\0m=\33mPORT\0m             Wait until a port becomes open before running checks
+  \1;33m--exec-file\0m=\33mPATH\0m             Wait until a file exists before running checks
+  \1;33m--exec-line\0m=\33mREGEX\0m            Wait until the process outputs a line before running checks
+  \1;33m--exec-kill-signal\0m=\33mSIGNAL\0m    Signal to send to the background process after finishing
+
+\4mFiltering options:\0m
+  \1;33m-t\0m, \1;33m--tags\0m=\33mTAGS\0m              Comma-separated list of tags to run
+  \1;33m--skip-tags\0m=\33mTAGS\0m             Comma-separated list of tags to skip
+  \1;33m-T\0m, \1;33m--types\0m=\33mTYPES\0m            Comma-separated list of check types to run
+  \1;33m--skip-types\0m=\33mTYPES\0m           Comma-separated list of check types to skip
+
+\4mConsole output options:\0m
+  \1;33m-s\0m, \1;33m--successes\0m=\33mSHOW\0m         How to show successful results (hide, show, expand)
+  \1;33m-f\0m, \1;33m--failures\0m=\33mSHOW\0m          How to show failed results (hide, show, expand)
+  \1;33m--summaries\0m=\33mSHOW\0m             Whether to show the summary lines
+  \1;33m-P\0m, \1;33m--print\0m=\33mFORMAT\0m           Change the output format (ansi, dots, json-lines, tap)
+  \1;33m--color\0m, \1;33m--colour\0m=\33mWHEN\0m       When to colourise the output (always, automatic, never)
+
+\4mResults document options:\0m
+  \1;33m--html-doc\0m=\33mPATH\0m              Produce an output HTML document
+  \1;33m--json-doc\0m=\33mPATH\0m              Produce an output JSON document
+  \1;33m--toml-doc\0m=\33mPATH\0m              Produce an output TOML document
+
+\4mMeta options:\0m
+  \1;33m-?\0m, \1;33m--help\0m                   Print list of command-line options
+  \1;33m-v\0m, \1;33m--version\0m                Print version information

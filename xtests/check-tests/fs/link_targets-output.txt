@@ -1,0 +1,22 @@
+
+   [4;38;5;248mcheck-tests/fs/link_targets.toml[0m
+ [1;32m✔[0m File [1m‘/testcases/a-symlink’[0m is a symbolic link to [1m‘/testcases/a-real-file-that-exists’[0m
+   [32m✔[0m it exists
+   [32m✔[0m it is a link
+   [32m✔[0m it links to the right place
+ [1;32m✔[0m File [1m‘/testcases/another-symlink’[0m is a symbolic link to [1m‘/testcases/a-directory-this-time’[0m
+   [32m✔[0m it exists
+   [32m✔[0m it is a link
+   [32m✔[0m it links to the right place
+ [1;31m✘[0m File [1m‘/testcases/another-symlink’[0m is a symbolic link to [1m‘/testcases/a-real-file-that-exists’[0m
+   [32m✔[0m it exists
+   [32m✔[0m it is a link
+   [31m✘[0m it actually links to /testcases/a-directory-this-time
+ [1;31m✘[0m File [1m‘/testcases/a-symlink’[0m is a symbolic link to [1m‘/testcases/a-directory-this-time’[0m
+   [32m✔[0m it exists
+   [32m✔[0m it is a link
+   [31m✘[0m it actually links to /testcases/a-real-file-that-exists
+ [1;31m✘[0m File [1m‘/testcases/a-real-file-that-exists’[0m is a symbolic link to [1m‘/testcases/another-symlink’[0m
+   [32m✔[0m it exists
+   [31m✘[0m it is a regular file
+   [1;31m2/5 successful[0m

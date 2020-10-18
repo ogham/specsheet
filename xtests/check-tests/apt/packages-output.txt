@@ -1,0 +1,15 @@
+
+   [4;38;5;248mcheck-tests/apt/packages.toml[0m
+ [1;32m✔[0m Package [1m‘curl’[0m is installed
+   [32m✔[0m it is installed
+ [1;31m✘[0m Package [1m‘archaeopteryx-simulator-2019’[0m is installed
+   [31m✘[0m it is not installed
+ [1;32m✔[0m Package [1m‘curl’[0m is installed
+   [32m✔[0m it is installed
+ [1;31m✘[0m Package [1m‘archaeopteryx-simulator-2019’[0m is installed
+   [31m✘[0m it is not installed
+ [1;31m✘[0m Package [1m‘curl’[0m is not installed
+   [31m✘[0m it is installed
+ [1;32m✔[0m Package [1m‘archaeopteryx-simulator-2019’[0m is not installed
+   [32m✔[0m it is not installed
+   [1;31m3/6 successful[0m

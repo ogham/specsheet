@@ -1,0 +1,6 @@
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘url’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘url’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘content_type’ value ‘"NEWS"’ is invalid (it must be a valid content type)
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘url’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘aoenstuoue’ is unknown
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "http://localhost:999"

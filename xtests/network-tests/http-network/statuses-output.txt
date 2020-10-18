@@ -1,0 +1,29 @@
+
+   [4;38;5;248mnetwork-tests/http-network/statuses.toml[0m
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/200’[0m has status [1m‘200’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/204’[0m has status [1m‘204’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/301’[0m has status [1m‘301’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/304’[0m has status [1m‘304’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/400’[0m has status [1m‘400’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/401’[0m has status [1m‘401’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/403’[0m has status [1m‘403’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/404’[0m has status [1m‘404’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/418’[0m has status [1m‘418’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/500’[0m has status [1m‘500’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/505’[0m has status [1m‘505’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/200’[0m has status [1m‘204’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/404’[0m has status [1m‘500’[0m
+   [31m✘[0m HTTP connection failed
+   [1;31m0/13 successful[0m

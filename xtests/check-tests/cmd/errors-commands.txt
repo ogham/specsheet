@@ -1,0 +1,9 @@
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘shell’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘stderr’ value ‘""’ is invalid (Empty string)
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘stderr’ value ‘’ is invalid (No conditions)
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘shell’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[cmd][0m Parameter ‘aoesnuaouen’ is unknown
+"sh" "-c" "\""
+"sh" "-c" "(((((((((((((("
+"sh" "-c" "ls"
+"sh" "-c" "nothing"

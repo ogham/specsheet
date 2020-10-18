@@ -1,0 +1,29 @@
+# curl gets installed in the Vagrantfile so it’s a good example
+
+[[apt]]
+package = "curl"
+
+[[apt]]
+package = "archaeopteryx-simulator-2019"
+
+
+# installed tests
+
+[[apt]]
+package = "curl"
+state = "installed"
+
+[[apt]]
+package = "archaeopteryx-simulator-2019"
+state = "installed"
+
+
+# absent tests
+
+[[apt]]
+package = "curl"
+state = "missing"
+
+[[apt]]
+package = "archaeopteryx-simulator-2019"
+state = "missing"

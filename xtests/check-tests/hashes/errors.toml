@@ -1,0 +1,21 @@
+[[hash]]
+path = ""
+algorithm = "MD5"
+hash = "abcdef"
+
+[[hash]]
+path = "../fs/numbers.txt"
+algorithm = "Argon2"
+hash = "abcdef"
+
+[[hash]]
+
+[[hash]]
+asueubotnubeo = "ntbsoaeutineo"
+
+
+# Try to hash a directory
+[[hash]]
+path = "/"
+algorithm = "MD5"
+hash = "abcdef"

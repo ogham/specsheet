@@ -1,0 +1,9 @@
+[Unit]
+Description=Sample HTTP server
+
+[Service]
+ExecStart=/testcases/http/http-server.rb
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

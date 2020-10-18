@@ -1,0 +1,19 @@
+
+   [4;38;5;248mcheck-tests/cmd/output_nonemptiness.toml[0m
+ [1;32m✔[0m Command [1m‘echo yo’[0m executes with non-empty stdout
+   [32m✔[0m command was executed
+   [32m✔[0m stdout is non-empty
+ [1;32m✔[0m Command [1m‘echo yo >&2’[0m executes with non-empty stderr
+   [32m✔[0m command was executed
+   [32m✔[0m stderr is non-empty
+ [1;31m✘[0m Command [1m‘echo -n’[0m executes with non-empty stdout
+   [32m✔[0m command was executed
+   [31m✘[0m stdout was empty
+ [1;31m✘[0m Command [1m‘echo -n’[0m executes with non-empty stderr
+   [32m✔[0m command was executed
+   [31m✘[0m stderr was empty
+ [1;31m✘[0m Command [1m‘echo -n’[0m executes with non-empty stdout and stderr
+   [32m✔[0m command was executed
+   [31m✘[0m stdout was empty
+   [31m✘[0m stderr was empty
+   [1;31m2/5 successful[0m

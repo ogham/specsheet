@@ -1,0 +1,7 @@
+
+   [4;38;5;248mload-tests/name-and-tags.toml[0m
+ [1;32m✔[0m Say hello
+   [32m✔[0m command was executed
+ [1;32m✔[0m Say hi
+   [32m✔[0m command was executed
+   2/2 successful

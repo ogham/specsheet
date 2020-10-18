@@ -1,0 +1,41 @@
+# successes
+
+[[cmd]]
+shell = "echo yo"
+stdout = { regex = "yo" }
+
+[[cmd]]
+shell = "echo yo >&2"
+stderr = { regex = "yo" }
+
+
+# stdout failures
+
+[[cmd]]
+shell = "echo hi"
+stdout = { regex = "yo" }
+
+[[cmd]]
+shell = "echo hi"
+stderr = { regex = "yo" }
+
+[[cmd]]
+shell = "echo hi"
+stdout = { regex = "yo" }
+stderr = { regex = "yo" }
+
+
+# stderr failures
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { regex = "yo" }
+
+[[cmd]]
+shell = "echo hi >&2"
+stderr = { regex = "yo" }
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { regex = "yo" }
+stderr = { regex = "yo" }

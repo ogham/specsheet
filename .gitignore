@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+
+/cov
+/kcov-*
+/tarpaulin-report.html

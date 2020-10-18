@@ -1,0 +1,9 @@
+[[cmd]]
+name = "Say hello"
+shell = "echo hello"
+tags = [ 'hi' ]
+
+[[cmd]]
+name = "Say hi"
+shell = "echo hi"
+tags = 'hi'

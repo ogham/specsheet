@@ -1,0 +1,27 @@
+[[fs]]
+path = 'numbers.txt'
+state = 'translucent'
+
+# nothing path
+[[fs]]
+path = ''
+
+# invalid mode
+[[fs]]
+path = 'numbers.txt'
+mode = 'extraordinary'
+
+# invalid kind
+[[fs]]
+path = 'numbers.txt'
+kind = 'bird'
+
+# invalid regex
+[[fs]]
+path = "numbers.txt"
+contents = { regex = "(((((((((((((((((((" }
+
+[[fs]]
+
+[[fs]]
+aoenstuun = "seoueobunt"

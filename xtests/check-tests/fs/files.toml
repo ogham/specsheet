@@ -1,0 +1,29 @@
+[[fs]]
+path = "numbers.txt"
+contents = { regex = "three" }
+
+[[fs]]
+path = "numbers.txt"
+contents = { regex = "five" }
+
+
+
+[[fs]]
+path = "/bin/ls"
+owner = "root"
+group = "root"
+
+[[fs]]
+path = "/bin/ls"
+owner = "groot"
+group = "groot"
+
+[[fs]]
+path = "/testcases/passwd/unknown-uid"
+owner = "root"
+group = "root"
+
+[[fs]]
+path = "/testcases/passwd/unknown-gid"
+owner = "root"
+group = "root"

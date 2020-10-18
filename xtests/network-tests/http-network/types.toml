@@ -1,0 +1,44 @@
+# Successes
+
+[[http]]
+url = 'https://eu.httpbin.org/html'
+content_type = "HTML"
+
+[[http]]
+url = 'https://eu.httpbin.org/xml'
+content_type = "XML"
+
+[[http]]
+url = 'https://eu.httpbin.org/uuid'
+content_type = "JSON"
+
+[[http]]
+url = 'https://eu.httpbin.org/image/png'
+content_type = "PNG"
+
+[[http]]
+url = 'https://eu.httpbin.org/image/jpeg'
+content_type = "JPEG"
+
+[[http]]
+url = 'https://eu.httpbin.org/image/webp'
+content_type = "WEBP"
+
+[[http]]
+url = 'https://eu.httpbin.org/image/svg'
+content_type = "SVG"
+
+
+# Failures
+
+[[http]]
+url = 'https://eu.httpbin.org/image/svg'
+content_type = "WOFF"
+
+[[http]]
+url = 'https://eu.httpbin.org/image/png'
+content_type = "FLIF"
+
+[[http]]
+url = 'https://eu.httpbin.org/status/204'
+content_type = "mime/type"

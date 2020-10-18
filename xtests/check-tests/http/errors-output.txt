@@ -1,0 +1,10 @@
+
+   [4;38;5;248mcheck-tests/http/errors.toml[0m
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘url’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘url’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘content_type’ value ‘"NEWS"’ is invalid (it must be a valid content type)
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘url’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[http][0m Parameter ‘aoenstuoue’ is unknown
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:999’[0m has status [1m‘200’[0m
+   [36m?[0m Process exited with status code ‘7’
+   [1;31m0/1 successful[0m

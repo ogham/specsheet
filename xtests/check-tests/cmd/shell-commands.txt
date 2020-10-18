@@ -1,0 +1,6 @@
+"sh" "-c" "cat ../fs/numbers.txt"
+"sh" "-c" "echo heeeeeeey"
+"sh" "-c" "echo hi"
+"sh" "-c" "echo hihihi"
+"sh" "-c" "env"
+"sh" "-c" "ls /dev/stderr"

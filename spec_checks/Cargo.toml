@@ -1,0 +1,32 @@
+[package]
+name = "spec_checks"
+version = "0.1.0-pre"
+authors = ["Benjamin Sago <ogham@bsago.me>"]
+edition = "2018"
+
+
+[dependencies]
+once_cell = "1.4"
+log = "0.4"
+mime = "0.3"
+regex = "1.3"
+
+# parsing
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.5"
+
+# type definitions
+users = "0.10"
+
+# running shell commands and expanding tildes
+shellexpand = "2.0"
+
+[dependencies.spec_analysis]
+path = "../spec_analysis"
+
+[dependencies.spec_exec]
+path = "../spec_exec"
+
+
+[dev-dependencies]
+pretty_assertions = "0.6.1"

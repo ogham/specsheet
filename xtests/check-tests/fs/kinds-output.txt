@@ -1,0 +1,47 @@
+
+   [4;38;5;248mcheck-tests/fs/kinds.toml[0m
+ [1;32m✔[0m File [1m‘/testcases/a-real-file-that-exists’[0m is a regular file
+   [32m✔[0m it exists
+   [32m✔[0m it is a regular file
+ [1;31m✘[0m File [1m‘/testcases/a-real-file-that-exists’[0m is a directory
+   [32m✔[0m it exists
+   [31m✘[0m it is a regular file
+ [1;31m✘[0m File [1m‘/testcases/a-real-file-that-exists’[0m is a symbolic link
+   [32m✔[0m it exists
+   [31m✘[0m it is a regular file
+ [1;31m✘[0m File [1m‘/testcases/a-real-file-that-exists’[0m does not exist
+   [31m✘[0m a file exists
+ [1;31m✘[0m File [1m‘/testcases/non-existent-file’[0m is a regular file
+   [31m✘[0m it is missing
+ [1;31m✘[0m File [1m‘/testcases/non-existent-file’[0m is a directory
+   [31m✘[0m it is missing
+ [1;31m✘[0m File [1m‘/testcases/non-existent-file’[0m is a symbolic link
+   [31m✘[0m it is missing
+ [1;32m✔[0m File [1m‘/testcases/non-existent-file’[0m does not exist
+   [32m✔[0m it is missing
+ [1;31m✘[0m File [1m‘/testcases/a-directory-this-time’[0m is a regular file
+   [32m✔[0m it exists
+   [31m✘[0m it is a directory
+ [1;32m✔[0m File [1m‘/testcases/a-directory-this-time’[0m is a directory
+   [32m✔[0m it exists
+   [32m✔[0m it is a directory
+ [1;31m✘[0m File [1m‘/testcases/a-directory-this-time’[0m is a symbolic link
+   [32m✔[0m it exists
+   [31m✘[0m it is a directory
+ [1;31m✘[0m File [1m‘/testcases/a-directory-this-time’[0m does not exist
+   [31m✘[0m a file exists
+ [1;32m✔[0m File [1m‘/testcases/specials/block-device’[0m exists
+   [32m✔[0m it exists
+ [1;32m✔[0m File [1m‘/testcases/specials/char-device’[0m exists
+   [32m✔[0m it exists
+ [1;32m✔[0m File [1m‘/testcases/specials/named-pipe’[0m exists
+   [32m✔[0m it exists
+ [1;31m✘[0m File [1m‘/testcases/specials/block-device’[0m is a symbolic link
+   [32m✔[0m it exists
+   [31m✘[0m it is a other
+ [1;31m✘[0m File [1m‘/testcases/specials/char-device’[0m does not exist
+   [31m✘[0m a file exists
+ [1;31m✘[0m File [1m‘/testcases/specials/named-pipe’[0m is a regular file
+   [32m✔[0m it exists
+   [31m✘[0m it is a other
+   [1;31m6/18 successful[0m

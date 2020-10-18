@@ -1,0 +1,17 @@
+
+   [4;38;5;248mnetwork-tests/http-network/badssl.toml[0m
+ [1;31m✘[0m HTTP request to [1m‘https://expired.badssl.com’[0m succeeds
+   [36m?[0m Process exited with status code ‘60’
+ [1;31m✘[0m HTTP request to [1m‘https://wrong.host.badssl.com’[0m succeeds
+   [36m?[0m Process exited with status code ‘51’
+ [1;31m✘[0m HTTP request to [1m‘https://self-signed.badssl.com’[0m succeeds
+   [36m?[0m Process exited with status code ‘60’
+ [1;31m✘[0m HTTP request to [1m‘https://untrusted-root.badssl.com’[0m succeeds
+   [36m?[0m Process exited with status code ‘60’
+ [1;32m✔[0m HTTP request to [1m‘https://revoked.badssl.com’[0m succeeds
+   [32m✔[0m HTTP connection succeeded
+ [1;31m✘[0m HTTP request to [1m‘https://expired.badssl.com’[0m succeeds
+   [36m?[0m Process exited with status code ‘60’
+ [1;32m✔[0m HTTP request to [1m‘https://long-extended-subdomain-name-containing-many-letters-and-dashes.badssl.com’[0m succeeds
+   [32m✔[0m HTTP connection succeeded
+   [1;31m2/7 successful[0m

@@ -1,0 +1,19 @@
+[[http]]
+url = 'http://localhost:2002/redirect?l=http://localhost:2002/somewhere-else'
+redirect_to = 'http://localhost:2002/somewhere-else'
+
+# this redirects to the wrong place
+[[http]]
+url = 'http://localhost:2002/redirect?l=http://localhost:2002/the-wrong-place'
+redirect_to = 'http://localhost:2002/somewhere-else'
+
+# this is 500, so should not count as a redirect even though it has
+# a Location header
+[[http]]
+url = 'http://localhost:2002/500-with-location?l=http://localhost:2002/somewhere-else'
+redirect_to = 'http://localhost:2002/somewhere-else'
+
+# and the Location header can’t be skipped
+[[http]]
+url = 'http://localhost:2002/status?s=302'
+redirect_to = 'http://localhost:2002/somewhere-else'

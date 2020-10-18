@@ -1,0 +1,6 @@
+ [36m?[0m [1;31mread error:[0m [36m[group][0m Parameter ‘group’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[group][0m Parameter ‘group’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[group][0m Parameter ‘oeunstie’ is unknown
+ [36m?[0m [1;31mread error:[0m [36m[user][0m Parameter ‘user’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[user][0m Parameter ‘user’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[user][0m Parameter ‘euosibuin’ is unknown

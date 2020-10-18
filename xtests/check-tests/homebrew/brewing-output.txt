@@ -1,0 +1,9 @@
+
+   [4;38;5;248mcheck-tests/homebrew/brewing.toml[0m
+ [1;31m✘[0m Formula [1m‘exa’[0m is installed
+   [36m?[0m Spawning failed: No such file or directory (os error 2)
+ [1;31m✘[0m Cask [1m‘detexify’[0m is installed
+   [36m?[0m Spawning failed: No such file or directory (os error 2)
+ [1;31m✘[0m Tap [1m‘dteoh/sqa’[0m is present
+   [36m?[0m Spawning failed: No such file or directory (os error 2)
+   [1;31m0/3 successful[0m

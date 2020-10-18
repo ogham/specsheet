@@ -1,0 +1,6 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://expired.badssl.com"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://long-extended-subdomain-name-containing-many-letters-and-dashes.badssl.com"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://revoked.badssl.com"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://self-signed.badssl.com"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://untrusted-root.badssl.com"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://wrong.host.badssl.com"

@@ -1,0 +1,5 @@
+
+   [4;38;5;248mcheck-tests/defaults/notworking.toml[0m
+ [1;31m✘[0m Defaults value [1m‘com.barebones.bbedit/NSRecentDocumentsLimit:Images’[0m is [1m‘0’[0m
+   [36m?[0m Spawning failed: No such file or directory (os error 2)
+   [1;31m0/1 successful[0m

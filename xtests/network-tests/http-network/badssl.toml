@@ -1,0 +1,20 @@
+[[http]]
+url = "https://expired.badssl.com"
+
+[[http]]
+url = "https://wrong.host.badssl.com"
+
+[[http]]
+url = "https://self-signed.badssl.com"
+
+[[http]]
+url = "https://untrusted-root.badssl.com"
+
+[[http]]
+url = "https://revoked.badssl.com"
+
+[[http]]
+url = "https://expired.badssl.com"
+
+[[http]]
+url = "https://long-extended-subdomain-name-containing-many-letters-and-dashes.badssl.com"

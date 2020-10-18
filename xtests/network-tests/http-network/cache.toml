@@ -1,0 +1,19 @@
+# Successes
+
+[[http]]
+url = 'https://eu.httpbin.org/cache/60'
+public_for = 60
+also = { "Cache-Control:" = "public, max-age=60" }
+
+
+# Failures
+
+[[http]]
+url = 'https://eu.httpbin.org/cache/60'
+public_for = 120
+also = { "Cache-Control:" = "public, max-age=120" }
+
+[[http]]
+url = 'https://eu.httpbin.org/status/204'
+public_for = 60
+also = { "Cache-Control:" = "public, max-age=60" }

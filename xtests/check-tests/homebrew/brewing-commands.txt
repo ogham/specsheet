@@ -1,0 +1,3 @@
+"brew" "list"
+"brew" "cask" "list"
+"brew" "tap"

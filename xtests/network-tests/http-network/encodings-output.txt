@@ -1,0 +1,15 @@
+
+   [4;38;5;248mnetwork-tests/http-network/encodings.toml[0m
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/gzip’[0m has encoding [1m‘gzip’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/deflate’[0m has encoding [1m‘deflate’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/brotli’[0m has encoding [1m‘br’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/204’[0m has encoding [1m‘absent’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/gzip’[0m has encoding [1m‘crush’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/204’[0m has encoding [1m‘gzip’[0m
+   [31m✘[0m HTTP connection failed
+   [1;31m0/6 successful[0m

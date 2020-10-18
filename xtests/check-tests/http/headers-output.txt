@@ -1,0 +1,13 @@
+
+   [4;38;5;248mcheck-tests/http/headers.toml[0m
+ [1;32m✔[0m HTTP request to [1m‘http://localhost:2002/header’[0m succeeds
+   [32m✔[0m HTTP connection succeeded
+   [32m✔[0m HTTP header ‘X-Waffles’ matches
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/header’[0m succeeds
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m HTTP header ‘X-Waffles’ was ‘tasty’
+ [1;31m✘[0m HTTP request to [1m‘http://localhost:2002/status?s=200’[0m has content type [1m‘HTML’[0m
+   [32m✔[0m HTTP connection succeeded
+   [31m✘[0m Content-Type is ‘application/json’
+   [31m✘[0m HTTP header ‘X-Waffles’ was missing
+   [1;31m1/3 successful[0m

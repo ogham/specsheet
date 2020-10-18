@@ -1,0 +1,6 @@
+# This won't work because the tester runs on Linux
+
+[[defaults]]
+domain = 'com.barebones.bbedit'
+key    = 'NSRecentDocumentsLimit:Images'
+value  = '0'

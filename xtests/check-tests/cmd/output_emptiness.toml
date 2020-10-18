@@ -1,0 +1,46 @@
+# successes
+
+[[cmd]]
+shell = "echo -n"
+stdout = { empty = true }
+
+[[cmd]]
+shell = "echo -n"
+stderr = { empty = true }
+
+[[cmd]]
+shell = "echo -n"
+stdout = { empty = true }
+stderr = { empty = true }
+
+
+# stdout failures
+
+[[cmd]]
+shell = "echo hi"
+stdout = { empty = true }
+
+[[cmd]]
+shell = "echo hi"
+stderr = { empty = true }
+
+[[cmd]]
+shell = "echo hi"
+stdout = { empty = true }
+stderr = { empty = true }
+
+
+# stderr failures
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { empty = true }
+
+[[cmd]]
+shell = "echo hi >&2"
+stderr = { empty = true }
+
+[[cmd]]
+shell = "echo hi >&2"
+stdout = { empty = true }
+stderr = { empty = true }

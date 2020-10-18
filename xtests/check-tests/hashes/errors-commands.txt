@@ -1,0 +1,5 @@
+ [36m?[0m [1;31mread error:[0m [36m[hash][0m Parameter ‘path’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[hash][0m Parameter ‘algorithm’ value ‘"Argon2"’ is invalid (it must be an algorithm such as ‘MD5’, ‘SHA256’...)
+ [36m?[0m [1;31mread error:[0m [36m[hash][0m Parameter ‘path’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[hash][0m Parameter ‘asueubotnubeo’ is unknown
+"md5sum" "/"

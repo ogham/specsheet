@@ -1,0 +1,15 @@
+[[tap]]
+shell = "cat all-good.tap"
+
+[[tap]]
+shell = "cat mixed-bag.tap"
+
+[[tap]]
+shell = "cat missing-count.tap"
+
+[[tap]]
+shell = "cat too-few.tap"
+
+[[tap]]
+shell = "echo $line"
+environment = { "line" = "ok 1" }

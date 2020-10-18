@@ -1,0 +1,80 @@
+[[fs]]
+path = "/testcases/a-real-file-that-exists"
+kind = "file"
+
+[[fs]]
+path = "/testcases/a-real-file-that-exists"
+kind = "directory"
+
+[[fs]]
+path = "/testcases/a-real-file-that-exists"
+kind = "link"
+
+[[fs]]
+path = "/testcases/a-real-file-that-exists"
+state = "absent"
+
+
+
+[[fs]]
+path = "/testcases/non-existent-file"
+kind = "file"
+
+[[fs]]
+path = "/testcases/non-existent-file"
+kind = "directory"
+
+[[fs]]
+path = "/testcases/non-existent-file"
+kind = "link"
+
+[[fs]]
+path = "/testcases/non-existent-file"
+state = "absent"
+
+
+
+[[fs]]
+path = "/testcases/a-directory-this-time"
+kind = "file"
+
+[[fs]]
+path = "/testcases/a-directory-this-time"
+kind = "directory"
+
+[[fs]]
+path = "/testcases/a-directory-this-time"
+kind = "link"
+
+[[fs]]
+path = "/testcases/a-directory-this-time"
+state = "absent"
+
+
+
+
+[[fs]]
+path = "/testcases/specials/block-device"
+state = "present"
+
+[[fs]]
+path = "/testcases/specials/char-device"
+state = "present"
+
+[[fs]]
+path = "/testcases/specials/named-pipe"
+state = "present"
+
+
+
+[[fs]]
+path = "/testcases/specials/block-device"
+kind = "link"
+
+[[fs]]
+path = "/testcases/specials/char-device"
+state = "absent"
+
+[[fs]]
+path = "/testcases/specials/named-pipe"
+kind = "file"

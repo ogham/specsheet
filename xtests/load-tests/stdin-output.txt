@@ -1,0 +1,23 @@
+ [1;31m✘[0m File [1m‘numbers.txt’[0m matches regex [1m‘/three/’[0m
+   [31m✘[0m it is missing
+ [1;31m✘[0m File [1m‘numbers.txt’[0m matches regex [1m‘/five/’[0m
+   [31m✘[0m it is missing
+ [1;32m✔[0m File [1m‘/bin/ls’[0m has owner [1m‘root’[0m and group [1m‘root’[0m
+   [32m✔[0m it exists
+   [32m✔[0m it has the right owner
+   [32m✔[0m it has the right group
+ [1;31m✘[0m File [1m‘/bin/ls’[0m has owner [1m‘groot’[0m and group [1m‘groot’[0m
+   [32m✔[0m it exists
+   [31m✘[0m it is actually owned by ‘root’ (0)
+   [31m✘[0m user ‘groot’ does not exist
+   [31m✘[0m it actually has group ‘root’ (0)
+   [31m✘[0m group groot does not exist
+ [1;31m✘[0m File [1m‘/testcases/passwd/unknown-uid’[0m has owner [1m‘root’[0m and group [1m‘root’[0m
+   [32m✔[0m it exists
+   [31m✘[0m it is actually owned by an unknown user (666)
+   [31m✘[0m it actually has group ‘vagrant’ (1000)
+ [1;31m✘[0m File [1m‘/testcases/passwd/unknown-gid’[0m has owner [1m‘root’[0m and group [1m‘root’[0m
+   [32m✔[0m it exists
+   [31m✘[0m it is actually owned by ‘vagrant’ (1000)
+   [31m✘[0m it actually has an unknown group (616)
+   [1;31m1/6 successful[0m

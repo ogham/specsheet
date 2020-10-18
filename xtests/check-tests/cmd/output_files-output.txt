@@ -1,0 +1,57 @@
+
+   [4;38;5;248mcheck-tests/cmd/output_files.toml[0m
+ [1;32m✔[0m Command [1m‘echo yo’[0m executes with stdout matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stdout matches file
+ [1;32m✔[0m Command [1m‘echo yo >&2’[0m executes with stderr matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stderr matches file
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with stdout matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    +[32mhi[0m
+    -[31myo[0m
+     
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with stderr matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    -[31myo[0m
+    -[31m[0m
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with stdout matching file [1m‘greeting.txt’[0m and stderr matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    +[32mhi[0m
+    -[31myo[0m
+     
+   [31m✘[0m stderr did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    -[31myo[0m
+    -[31m[0m
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with stdout matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    -[31myo[0m
+    -[31m[0m
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with stderr matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    +[32mhi[0m
+    -[31myo[0m
+     
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with stdout matching file [1m‘greeting.txt’[0m and stderr matching file [1m‘greeting.txt’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    -[31myo[0m
+    -[31m[0m
+   [31m✘[0m stderr did not match the file
+     [4;38;5;187mDifference between expected and got:[0m
+    +[32mhi[0m
+    -[31myo[0m
+     
+   [1;31m2/8 successful[0m

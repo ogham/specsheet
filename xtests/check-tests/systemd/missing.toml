@@ -1,0 +1,16 @@
+# this service doesn’t exist
+
+[[systemd]]
+service = 'tcp-server'
+
+[[systemd]]
+service = 'tcp-server'
+state = 'running'
+
+[[systemd]]
+service = 'tcp-server'
+state = 'stopped'
+
+[[systemd]]
+service = 'tcp-server'
+state = 'missing'

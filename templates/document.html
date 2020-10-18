@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+
+        font-family: sans-serif;
+        color: #333;
+        line-height: 1.5;
+      }
+
+      ul {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+
+      .emblem {
+        display: inline-block;
+        border-radius: 4px;
+        margin: 2px;
+        text-align: center;
+        color: white;
+        width: 32px;
+      }
+
+      .emblem.positivity {
+        background-color: green;
+      }
+
+      .emblem.negativity {
+        background-color: red;
+      }
+
+      .emblem.errors {
+        background-color: #21C3D9;
+        font-weight: bold;
+      }
+
+      pre {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>Specsheet</h1>
+      STUFF
+
+      <h2>spec.toml</h2>
+
+      <details>
+        <summary><span class="emblem of positivity">✔</span> File <b>‘/etc/ssh/sshd_config’</b> is a regular file that matches regex <b>‘/^PermitRootLogin no/’</b></summary>
+          <ul>
+            <li><span class="emblem of positivity">✔</span> it exists</li>
+            <li><span class="emblem of positivity">✔</span> it is a regular file</li>
+            <li><span class="emblem of positivity">✔</span> its contents matches regex<br /><details><summary>Output</summary><pre>hi</pre></details></li>
+          </ul>
+      </details>
+
+      <details open="open">
+        <summary><span class="emblem of negativity">✘</span> File <b>‘/etc/ssh/sshd_config’</b> is a regular file that matches regex <b>‘/^PermitRootLogin no/’</b></summary>
+          <ul>
+            <li><span class="emblem of positivity">✔</span> it exists</li>
+            <li><span class="emblem of negativity">✘</span> it is a regular file</li>
+            <li><span class="emblem of positivity">✔</span> its contents matches regex</li>
+          </ul>
+      </details>
+
+      <details open="open">
+        <summary><span class="emblem of errors">✘</span> File <b>‘/etc/ssh/sshd_config’</b> is a regular file that matches regex <b>‘/^PermitRootLogin no/’</b></summary>
+          <ul>
+            <li><span class="emblem of errors">?</span> Command failed to run</li>
+          </ul>
+      </details>
+
+      <p>1/2 successful.</p>
+
+    </main>
+  </body>
+</html>

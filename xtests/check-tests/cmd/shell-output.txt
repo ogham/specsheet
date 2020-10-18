@@ -1,0 +1,28 @@
+
+   [4;38;5;248mcheck-tests/cmd/shell.toml[0m
+ [1;32m✔[0m Command [1m‘echo hihihi’[0m executes with stdout matching regex [1m‘/hihihi/’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stdout matches regex
+ [1;31m✘[0m Command [1m‘echo heeeeeeey’[0m executes with stdout matching regex [1m‘/a+/’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the regex
+     [4;38;5;187mCommand output:[0m
+     heeeeeeey
+ [1;31m✘[0m Command [1m‘ls /dev/stderr’[0m executes with stderr containing [1m‘error’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr did not match the string
+     [4;38;5;187mCommand output:[0m
+ [1;32m✔[0m Command [1m‘cat ../fs/numbers.txt’[0m executes with stdout matching file [1m‘../fs/numbers.txt’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stdout matches file
+ [1;32m✔[0m Command [1m‘DEBUG=the truest env’[0m executes with stdout containing [1m‘DEBUG=the truest’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stdout matches string
+ [1;31m✘[0m Command [1m‘echo hi’[0m returns [1m‘73’[0m with empty stdout and stderr
+   [32m✔[0m command was executed
+   [31m✘[0m command exited with status code ‘0’
+   [31m✘[0m stdout was not empty
+     [4;38;5;187mCommand output:[0m
+     hi
+   [32m✔[0m stderr is empty
+   [1;31m3/6 successful[0m

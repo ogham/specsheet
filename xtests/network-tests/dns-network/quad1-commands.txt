@@ -1,0 +1,3 @@
+"dig" "+short" "-t" "AAAA" "oaenstubnoueoutoueo.tnaosuitembuhknouxbhtediokt.oeuntbesoub"
+"dig" "+short" "-t" "A" "one.one.one.one"
+"dig" "+short" "@1.1.1.1" "-t" "A" "one.one.one.one"

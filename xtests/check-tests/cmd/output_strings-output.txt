@@ -1,0 +1,41 @@
+
+   [4;38;5;248mcheck-tests/cmd/output_strings.toml[0m
+ [1;32m✔[0m Command [1m‘echo yo’[0m executes with stdout containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stdout matches string
+ [1;32m✔[0m Command [1m‘echo yo >&2’[0m executes with stderr containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [32m✔[0m stderr matches string
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with stdout containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the string
+     [4;38;5;187mCommand output:[0m
+     hi
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with stderr containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr did not match the string
+     [4;38;5;187mCommand output:[0m
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with stdout containing [1m‘yo’[0m and stderr containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the string
+     [4;38;5;187mCommand output:[0m
+     hi
+   [31m✘[0m stderr did not match the string
+     [4;38;5;187mCommand output:[0m
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with stdout containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the string
+     [4;38;5;187mCommand output:[0m
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with stderr containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stderr did not match the string
+     [4;38;5;187mCommand output:[0m
+     hi
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with stdout containing [1m‘yo’[0m and stderr containing [1m‘yo’[0m
+   [32m✔[0m command was executed
+   [31m✘[0m stdout did not match the string
+     [4;38;5;187mCommand output:[0m
+   [31m✘[0m stderr did not match the string
+     [4;38;5;187mCommand output:[0m
+     hi
+   [1;31m2/8 successful[0m

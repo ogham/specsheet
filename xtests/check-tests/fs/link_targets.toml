@@ -1,0 +1,25 @@
+# successes
+
+[[fs]]
+path = "/testcases/a-symlink"
+link_target = "/testcases/a-real-file-that-exists"
+
+[[fs]]
+path = "/testcases/another-symlink"
+link_target = "/testcases/a-directory-this-time"
+
+
+
+# fails
+
+[[fs]]
+path = "/testcases/another-symlink"
+link_target = "/testcases/a-real-file-that-exists"
+
+[[fs]]
+path = "/testcases/a-symlink"
+link_target = "/testcases/a-directory-this-time"
+
+[[fs]]
+path = "/testcases/a-real-file-that-exists"
+link_target = "/testcases/another-symlink"

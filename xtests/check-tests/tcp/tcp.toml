@@ -1,0 +1,24 @@
+# 2002 serves the HTTP server
+
+[[tcp]]
+port = 2002
+
+[[tcp]]
+port = 2002
+state = 'open'
+
+[[tcp]]
+port = 2002
+state = 'closed'
+
+
+# port 2001 serves the UDP server
+
+[[tcp]]
+port = 2001
+
+
+# port 404 serves nothing
+
+[[tcp]]
+port = 404

@@ -1,0 +1,26 @@
+[[cmd]]
+shell = "echo hihihi"
+stdout = { regex = "hihihi" }
+
+[[cmd]]
+shell = "echo heeeeeeey"
+stdout = { regex = "a+" }
+
+[[cmd]]
+shell = "ls /dev/stderr"
+stderr = { string = "error" }
+
+[[cmd]]
+shell = "cat ../fs/numbers.txt"
+stdout = { file = "../fs/numbers.txt" }
+
+[[cmd]]
+shell = "env"
+environment = { DEBUG = "the truest" }
+stdout = { string = "DEBUG=the truest" }
+
+[[cmd]]
+shell = "echo hi"
+status = 73
+stdout = { empty = true }
+stderr = { empty = true }

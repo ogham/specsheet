@@ -1,0 +1,10 @@
+# These won't actually work because the tester runs on Linux
+
+[[homebrew]]
+formula = "exa"
+
+[[homebrew_cask]]
+cask = "detexify"
+
+[[homebrew_tap]]
+tap = "dteoh/sqa"

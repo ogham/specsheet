@@ -1,0 +1,12 @@
+[[ufw]]
+port = 99999
+protocol = 'tcp'
+
+[[ufw]]
+port = 65432
+protocol = 'sctp'
+
+[[ufw]]
+
+[[ufw]]
+ueosntieutiei = "nshbneoutih"

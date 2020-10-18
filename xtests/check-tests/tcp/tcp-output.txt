@@ -1,0 +1,13 @@
+
+   [4;38;5;248mcheck-tests/tcp/tcp.toml[0m
+ [1;32m✔[0m TCP port [1m‘2002’[0m is open
+   [32m✔[0m received a response
+ [1;32m✔[0m TCP port [1m‘2002’[0m is open
+   [32m✔[0m received a response
+ [1;31m✘[0m TCP port [1m‘2002’[0m is closed
+   [31m✘[0m received a response
+ [1;31m✘[0m TCP port [1m‘2001’[0m is open
+   [31m✘[0m connection refused
+ [1;31m✘[0m TCP port [1m‘404’[0m is open
+   [31m✘[0m connection refused
+   [1;31m2/5 successful[0m

@@ -1,0 +1,12 @@
+[[user]]
+user = "vagrant"
+login_shell = "/bin/bash"
+groups = [ "adm", "vagrant", "cdrom" ]
+
+[[user]]
+user = "vagrant"
+login_shell = "/bin/zsh"
+groups = [ "adminz" ]
+
+[[user]]
+user = "jarls"

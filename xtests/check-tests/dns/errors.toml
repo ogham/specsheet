@@ -1,0 +1,15 @@
+[[dns]]
+type = "FLIP"
+domain = "a.b"
+value = "c.d"
+
+[[dns]]
+type = "A"
+domain = "a.b"
+value = "c.d"
+nameserver = "the best nameserver in the world!!"
+
+[[dns]]
+
+[[dns]]
+oedusoteubeo = "saoeunoenun"

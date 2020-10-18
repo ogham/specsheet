@@ -1,0 +1,32 @@
+[package]
+name = "spec_commands"
+version = "0.1.0-pre"
+authors = ["Benjamin Sago <ogham@bsago.me>"]
+edition = "2018"
+
+
+[dependencies]
+
+# regex
+once_cell = "1.4"
+regex = "1.3"
+
+# http
+url = "2.1"
+
+# logging
+log = "0.4"
+
+# running
+shell-words = "1.0"
+
+# non-command local machine introspection
+users = "0.10"
+
+# The commands define the traits that the outputs implement
+[dependencies.spec_checks]
+path = "../spec_checks"
+
+# The executor helper
+[dependencies.spec_exec]
+path = "../spec_exec"

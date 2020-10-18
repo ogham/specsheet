@@ -1,0 +1,15 @@
+[[http]]
+url = 'http://localhost:2002/status?s=200'
+status = 200
+
+[[http]]
+url = 'http://localhost:2002/status?s=401'
+status = 401
+
+[[http]]
+url = 'http://localhost:2002/status?s=500'
+status = 500
+
+[[http]]
+url = 'http://localhost:2002/status?s=200'
+status = 418

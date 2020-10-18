@@ -1,0 +1,9 @@
+[Unit]
+Description=Sample UDP server
+
+[Service]
+ExecStart=/testcases/udp/udp-server.rb
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

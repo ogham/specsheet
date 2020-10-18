@@ -1,0 +1,8 @@
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/html"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/image/jpeg"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/image/png"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/image/svg"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/image/webp"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/status/204"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/uuid"
+"curl" "-XGET" "--max-time" "5" "--head" "--user-agent" "specsheet" "https://eu.httpbin.org/xml"

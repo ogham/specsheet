@@ -1,0 +1,7 @@
+
+   [4;38;5;248mcheck-tests/systemd/errors.toml[0m
+ [36m?[0m [1;31mread error:[0m [36m[systemd][0m Parameter ‘state’ value ‘"maine"’ is invalid (it must be ‘running’ or ‘stopped’ or ‘missing’)
+ [36m?[0m [1;31mread error:[0m [36m[systemd][0m Parameter ‘service’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[systemd][0m Parameter ‘service’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[systemd][0m Parameter ‘oeuthiduoesnieuh’ is unknown
+   [1;33m0/0 successful[0m

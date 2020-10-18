@@ -1,0 +1,14 @@
+[[defaults]]
+
+[[defaults]]
+domain = ""
+key = "key"
+value = "value"
+
+[[defaults]]
+domain = "domain"
+key = ""
+value = "value"
+
+[[defaults]]
+oauithoesineuhosi = "hsuitnhoesniuoeb"

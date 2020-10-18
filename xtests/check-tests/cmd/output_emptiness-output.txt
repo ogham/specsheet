@@ -1,0 +1,41 @@
+
+   [4;38;5;248mcheck-tests/cmd/output_emptiness.toml[0m
+ [1;32m✔[0m Command [1m‘echo -n’[0m executes with empty stdout
+   [32m✔[0m command was executed
+   [32m✔[0m stdout is empty
+ [1;32m✔[0m Command [1m‘echo -n’[0m executes with empty stderr
+   [32m✔[0m command was executed
+   [32m✔[0m stderr is empty
+ [1;32m✔[0m Command [1m‘echo -n’[0m executes with empty stdout and stderr
+   [32m✔[0m command was executed
+   [32m✔[0m stdout is empty
+   [32m✔[0m stderr is empty
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with empty stdout
+   [32m✔[0m command was executed
+   [31m✘[0m stdout was not empty
+     [4;38;5;187mCommand output:[0m
+     hi
+ [1;32m✔[0m Command [1m‘echo hi’[0m executes with empty stderr
+   [32m✔[0m command was executed
+   [32m✔[0m stderr is empty
+ [1;31m✘[0m Command [1m‘echo hi’[0m executes with empty stdout and stderr
+   [32m✔[0m command was executed
+   [31m✘[0m stdout was not empty
+     [4;38;5;187mCommand output:[0m
+     hi
+   [32m✔[0m stderr is empty
+ [1;32m✔[0m Command [1m‘echo hi >&2’[0m executes with empty stdout
+   [32m✔[0m command was executed
+   [32m✔[0m stdout is empty
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with empty stderr
+   [32m✔[0m command was executed
+   [31m✘[0m stderr was not empty
+     [4;38;5;187mCommand output:[0m
+     hi
+ [1;31m✘[0m Command [1m‘echo hi >&2’[0m executes with empty stdout and stderr
+   [32m✔[0m command was executed
+   [32m✔[0m stdout is empty
+   [31m✘[0m stderr was not empty
+     [4;38;5;187mCommand output:[0m
+     hi
+   [1;31m5/9 successful[0m

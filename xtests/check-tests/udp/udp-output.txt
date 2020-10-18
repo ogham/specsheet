@@ -1,0 +1,13 @@
+
+   [4;38;5;248mcheck-tests/udp/udp.toml[0m
+ [1;32m✔[0m UDP port [1m‘2001’[0m responds
+   [32m✔[0m received a response
+ [1;31m✘[0m UDP port [1m‘2001’[0m does not respond
+   [31m✘[0m received a response
+ [1;32m✔[0m UDP port [1m‘2001’[0m responds
+   [32m✔[0m received a response
+ [1;31m✘[0m UDP port [1m‘2002’[0m responds
+   [31m✘[0m connection refused
+ [1;31m✘[0m UDP port [1m‘404’[0m responds
+   [31m✘[0m connection refused
+   [1;31m2/5 successful[0m

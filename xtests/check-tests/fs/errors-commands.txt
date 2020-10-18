@@ -1,0 +1,6 @@
+ [36m?[0m [1;31mread error:[0m [36m[fs][0m Parameter ‘state’ value ‘"translucent"’ is invalid (it must be ‘present’ or ‘missing’)
+ [36m?[0m [1;31mread error:[0m [36m[fs][0m Parameter ‘path’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[fs][0m Parameter ‘mode’ value ‘"extraordinary"’ is invalid (it must be a permissions string)
+ [36m?[0m [1;31mread error:[0m [36m[fs][0m Parameter ‘kind’ value ‘"bird"’ is invalid (it must be ‘file’ or ‘directory’ or ‘symlink’)
+ [36m?[0m [1;31mread error:[0m [36m[fs][0m Parameter ‘path’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[fs][0m Parameter ‘aoenstuun’ is unknown

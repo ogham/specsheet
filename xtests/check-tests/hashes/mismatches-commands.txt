@@ -1,0 +1,6 @@
+"md5sum" "some_file.txt"
+"sha1sum" "some_file.txt"
+"sha224sum" "some_file.txt"
+"sha256sum" "some_file.txt"
+"sha384sum" "some_file.txt"
+"sha512sum" "some_file.txt"

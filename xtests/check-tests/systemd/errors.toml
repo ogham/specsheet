@@ -1,0 +1,17 @@
+# invalid state
+
+[[systemd]]
+service = 'udp-server'
+state = 'maine'
+
+
+# invalid name
+
+[[systemd]]
+service = ''
+state = 'maine'
+
+[[systemd]]
+
+[[systemd]]
+oeuthiduoesnieuh = "sunteihtn"

@@ -1,0 +1,7 @@
+
+   [4;38;5;248mcheck-tests/apt/errors.toml[0m
+ [36m?[0m [1;31mread error:[0m [36m[apt][0m Parameter ‘state’ value ‘"available but not installed yet"’ is invalid (it must be ‘installed’ or ‘missing’)
+ [36m?[0m [1;31mread error:[0m [36m[apt][0m Parameter ‘package’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[apt][0m Parameter ‘package’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[apt][0m Parameter ‘aontehuseaonu’ is unknown
+   [1;33m0/0 successful[0m

@@ -1,0 +1,23 @@
+
+   [4;38;5;248mnetwork-tests/http-network/types.toml[0m
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/html’[0m has content type [1m‘HTML’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/xml’[0m has content type [1m‘XML’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/uuid’[0m has content type [1m‘JSON’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/image/png’[0m has content type [1m‘PNG’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/image/jpeg’[0m has content type [1m‘JPEG’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/image/webp’[0m has content type [1m‘WEBP’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/image/svg’[0m has content type [1m‘SVG’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/image/svg’[0m has content type [1m‘WOFF’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/image/png’[0m has content type [1m‘FLIF’[0m
+   [31m✘[0m HTTP connection failed
+ [1;31m✘[0m HTTP request to [1m‘https://eu.httpbin.org/status/204’[0m has content type [1m‘mime/type’[0m
+   [31m✘[0m HTTP connection failed
+   [1;31m0/10 successful[0m

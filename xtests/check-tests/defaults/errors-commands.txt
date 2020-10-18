@@ -1,0 +1,4 @@
+ [36m?[0m [1;31mread error:[0m [36m[defaults][0m Parameter ‘key’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[defaults][0m Parameter ‘domain’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[defaults][0m Parameter ‘key’ value ‘""’ is invalid (it must not be empty)
+ [36m?[0m [1;31mread error:[0m [36m[defaults][0m Parameter ‘oauithoesineuhosi’ is unknown

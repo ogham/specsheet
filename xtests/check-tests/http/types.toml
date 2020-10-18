@@ -1,0 +1,61 @@
+# successes
+
+[[http]]
+url = 'http://localhost:2002/type?ct=text/html'
+content_type = "HTML"
+
+[[http]]
+url = 'http://localhost:2002/type?ct=image/png'
+content_type = "HTML"
+
+[[http]]
+url = 'http://localhost:2002/type?ct=application%2Fatom%2Bxml'
+content_type = "ATOM"
+
+
+# fails
+
+[[http]]
+url = 'http://localhost:2002/type?ct=text/html'
+content_type = "PNG"
+
+[[http]]
+url = 'http://localhost:2002/type?ct=image/png'
+content_type = "HTML"
+
+
+# different kinds
+
+[[http]]
+url = 'http://localhost:2002/type?ct=font/woff'
+content_type = "WOFF"
+
+[[http]]
+url = 'http://localhost:2002/type?ct=application/font-woff'
+content_type = "WOFF"
+
+[[http]]
+url = 'http://localhost:2002/type?ct=application/javascript'
+content_type = "JS"
+
+[[http]]
+url = 'http://localhost:2002/type?ct=text/javascript'
+content_type = "JS"
+
+
+# edge cases
+
+# Invalid MIME type
+[[http]]
+url = 'http://localhost:2002/type?ct=invalid'
+content_type = "HTML"
+
+# Another invalid MIME type
+[[http]]
+url = 'http://localhost:2002/type?ct=///////////'
+content_type = "HTML"
+
+# Missing Content-Type header
+[[http]]
+url = 'http://localhost:2002/redirect?l=nowhere'
+content_type = "HTML"

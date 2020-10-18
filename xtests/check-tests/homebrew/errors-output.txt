@@ -1,0 +1,9 @@
+
+   [4;38;5;248mcheck-tests/homebrew/errors.toml[0m
+ [36m?[0m [1;31mread error:[0m [36m[homebrew][0m Parameter ‘formula’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[homebrew][0m Parameter ‘aeontsueon’ is unknown
+ [36m?[0m [1;31mread error:[0m [36m[homebrew_cask][0m Parameter ‘cask’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[homebrew_cask][0m Parameter ‘antsuioaihust’ is unknown
+ [36m?[0m [1;31mread error:[0m [36m[homebrew_tap][0m Parameter ‘tap’ is missing
+ [36m?[0m [1;31mread error:[0m [36m[homebrew_tap][0m Parameter ‘otnsuehuisoe’ is unknown
+   [1;33m0/0 successful[0m

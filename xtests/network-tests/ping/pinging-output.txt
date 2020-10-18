@@ -1,0 +1,15 @@
+
+   [4;38;5;248mnetwork-tests/ping/pinging.toml[0m
+ [1;32m✔[0m Pinging [1m‘9.9.9.9’[0m should receive a response
+   [32m✔[0m Received response
+ [1;32m✔[0m Pinging [1m‘9.9.9.9’[0m should receive a response
+   [32m✔[0m Received response
+ [1;31m✘[0m Pinging [1m‘9.9.9.9’[0m should time out
+   [31m✘[0m Received response
+ [1;31m✘[0m Pinging [1m‘10.255.255.255’[0m should receive a response
+   [31m✘[0m No response
+ [1;31m✘[0m Pinging [1m‘10.255.255.255’[0m should receive a response
+   [31m✘[0m No response
+ [1;32m✔[0m Pinging [1m‘10.255.255.255’[0m should time out
+   [32m✔[0m No response
+   [1;31m3/6 successful[0m

@@ -1,0 +1,7 @@
+
+   [4;38;5;248mcheck-tests/passwd/groups.toml[0m
+ [1;32m✔[0m Group [1m‘adm’[0m exists
+   [32m✔[0m it exists
+ [1;31m✘[0m Group [1m‘meese’[0m exists
+   [31m✘[0m it exists
+   [1;31m1/2 successful[0m
