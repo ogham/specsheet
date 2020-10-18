@@ -3,6 +3,13 @@
 
 [Specsheet](https://specsheet.software/) is the software testing toolkit.
 
+<a href="https://travis-ci.org/github/ogham/specsheet">
+    <img src="https://travis-ci.org/ogham/specsheet.svg?branch=master" alt="Build status" />
+</a>
+
+<a href="https://saythanks.io/to/ogham%40bsago.me">
+    <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say thanks!" />
+</a>
 </div>
 
 ---
