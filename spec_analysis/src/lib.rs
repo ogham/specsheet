@@ -4,7 +4,7 @@
 #![warn(deprecated_in_future)]
 #![warn(future_incompatible)]
 #![warn(missing_copy_implementations)]
-#![allow(missing_docs)]
+#![warn(missing_docs)]
 #![warn(nonstandard_style)]
 #![warn(rust_2018_compatibility)]
 #![warn(rust_2018_idioms)]
