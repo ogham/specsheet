@@ -1,6 +1,7 @@
 all: build test
 all-release: build-release test-release
 
+
 # compiles the specsheet binary
 @build:
     cargo build
@@ -8,6 +9,7 @@ all-release: build-release test-release
 # compiles the specsheet binary (in release mode)
 @build-release:
     cargo build --release --verbose
+
 
 # runs unit tests
 @test:
@@ -17,10 +19,6 @@ all-release: build-release test-release
 @test-release:
     cargo test --release --all --verbose
 
-# prints versions of the necessary build tools
-@versions:
-    rustc --version
-    cargo --version
 
 # lints the code
 @clippy:
@@ -32,10 +30,22 @@ all-release: build-release test-release
 @coverage-docker:
     docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin cargo tarpaulin --all --out Html
 
-# updates versions, and checks for outdated ones
-@update:
+# updates dependency versions, and checks for outdated ones
+@update-deps:
     cargo update
+    command -v cargo-outdated >/dev/null || (echo "cargo-outdated not installed" && exit 1)
     cargo outdated
+
+# lists unused dependencies
+@unused-deps:
+    command -v cargo-udeps >/dev/null || (echo "cargo-udeps not installed" && exit 1)
+    cargo +nightly udeps
+
+# prints versions of the necessary build tools
+@versions:
+    rustc --version
+    cargo --version
+
 
 # builds the man pages
 @man:
