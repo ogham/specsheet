@@ -11,9 +11,6 @@ edition = "2018"
 once_cell = "1.4"
 regex = "1.3"
 
-# http
-url = "2.1"
-
 # logging
 log = "0.4"
 
