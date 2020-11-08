@@ -51,6 +51,7 @@ all-release: build-release test-release
 @man:
     mkdir -p "${CARGO_TARGET_DIR:-target}/man"
     pandoc --standalone -f markdown -t man man/specsheet.1.md          > "${CARGO_TARGET_DIR:-target}/man/specsheet.1"
+    pandoc --standalone -f markdown -t man man/specsheet.5.md          > "${CARGO_TARGET_DIR:-target}/man/specsheet.5"
     pandoc --standalone -f markdown -t man man/specsheet_apt.5.md      > "${CARGO_TARGET_DIR:-target}/man/specsheet_apt.5"
     pandoc --standalone -f markdown -t man man/specsheet_cmd.5.md      > "${CARGO_TARGET_DIR:-target}/man/specsheet_cmd.5"
     pandoc --standalone -f markdown -t man man/specsheet_defaults.5.md > "${CARGO_TARGET_DIR:-target}/man/specsheet_defaults.5"
