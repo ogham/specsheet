@@ -13,11 +13,11 @@ all-release: build-release test-release
 
 # runs unit tests
 @test:
-    cargo test --all -- --quiet
+    cargo test --workspace -- --quiet
 
 # runs unit tests (in release mode)
 @test-release:
-    cargo test --release --all --verbose
+    cargo test --release --workspace --verbose
 
 
 # lints the code
@@ -28,7 +28,7 @@ all-release: build-release test-release
 
 # generates a code coverage report using tarpaulin via docker
 @coverage-docker:
-    docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin cargo tarpaulin --all --out Html
+    docker run --security-opt seccomp=unconfined -v "${PWD}:/volume" xd009642/tarpaulin cargo tarpaulin --workspace --out Html
 
 # updates dependency versions, and checks for outdated ones
 @update-deps:
