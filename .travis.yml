@@ -5,6 +5,15 @@ rust:
   - beta
   - nightly
 
+script:
+  - cargo build --verbose --workspace
+  - cargo test --verbose --workspace --no-run
+  - cargo test --verbose --workspace
+
+os:
+  - linux
+  - osx
+
 jobs:
   fast_finish: true
   allow_failures:
