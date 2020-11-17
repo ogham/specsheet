@@ -9,6 +9,7 @@ all-release: build-release test-release
 # compiles the specsheet binary (in release mode)
 @build-release:
     cargo build --release --verbose
+    strip "${CARGO_TARGET_DIR:-target}/release/specsheet"
 
 
 # runs unit tests
@@ -70,3 +71,23 @@ all-release: build-release test-release
     pandoc --standalone -f markdown -t man man/specsheet_udp.5.md      > "${CARGO_TARGET_DIR:-target}/man/specsheet_udp.5"
     pandoc --standalone -f markdown -t man man/specsheet_ufw.5.md      > "${CARGO_TARGET_DIR:-target}/man/specsheet_ufw.5"
     pandoc --standalone -f markdown -t man man/specsheet_user.5.md     > "${CARGO_TARGET_DIR:-target}/man/specsheet_user.5"
+
+
+# creates a distributable package
+zip desc exe="specsheet":
+    #!/usr/bin/env perl
+    use Archive::Zip;
+    -e 'target/release/{{ exe }}' || die 'Binary not built!';
+    -e 'target/man/specsheet.1' || die 'Man pages not built!';
+    my $zip = Archive::Zip->new();
+    $zip->addFile('completions/specsheet.bash');
+    $zip->addFile('completions/specsheet.zsh');
+    $zip->addFile('completions/specsheet.fish');
+    $zip->addFile('target/man/specsheet.1', 'man/specsheet.1');
+    $zip->addFile('target/man/specsheet.5', 'man/specsheet.5');
+    for (qw[apt cmd defaults dns fs gem group hash homebrew http npm ping systemd tap tcp udp ufw user]) {
+        $zip->addFile("target/man/specsheet_$_.5", "man/specsheet_$_.5");
+    }
+    $zip->addFile('target/release/{{ exe }}', 'bin/{{ exe }}');
+    $zip->writeToFileNamed('specsheet-{{ desc }}.zip') == AZ_OK || die 'Zip write error!';
+    system 'unzip -l "specsheet-{{ desc }}".zip'
