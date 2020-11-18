@@ -14,7 +14,7 @@
 #![warn(unused)]
 
 #![warn(clippy::all, clippy::pedantic)]
-#![allow(clippy::must_use_attribute)]
+#![allow(clippy::must_use_candidate)]
 #![allow(clippy::non_ascii_literal)]
 
 #![deny(unsafe_code)]

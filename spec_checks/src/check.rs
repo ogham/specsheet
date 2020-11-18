@@ -32,12 +32,7 @@ impl<PASS, FAIL> CheckResult<PASS, FAIL> {
     /// Whether this result passed or not.
     /// This is used when determining whether an entire check succeeded or failed.
     pub fn passed(&self) -> bool {
-        if let Self::Passed(_) = self {
-            true
-        }
-        else {
-            false
-        }
+        matches!(self, Self::Passed(_))
     }
 }
 

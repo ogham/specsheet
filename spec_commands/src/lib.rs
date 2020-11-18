@@ -16,6 +16,7 @@
 #![warn(clippy::all, clippy::pedantic)]
 #![allow(clippy::map_entry)]
 #![allow(clippy::module_name_repetitions)]
+#![allow(clippy::option_if_let_else)]
 #![allow(clippy::option_option)]
 #![allow(clippy::tabs_in_doc_comments)]
 #![allow(clippy::wildcard_imports)]

@@ -25,6 +25,7 @@
 #![allow(clippy::module_name_repetitions)]
 #![allow(clippy::must_use_candidate)]
 #![allow(clippy::non_ascii_literal)]
+#![allow(clippy::option_if_let_else)]
 #![allow(clippy::pub_enum_variant_names)]
 #![allow(clippy::wildcard_imports)]
 #![warn(clippy::clone_on_ref_ptr)]

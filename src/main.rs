@@ -21,6 +21,7 @@
 #![allow(clippy::match_same_arms)]
 #![allow(clippy::module_name_repetitions)]
 #![allow(clippy::non_ascii_literal)]
+#![allow(clippy::option_if_let_else)]
 #![allow(clippy::single_match)]
 #![allow(clippy::too_many_lines)]
 #![allow(clippy::wildcard_imports)]
