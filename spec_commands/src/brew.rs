@@ -67,6 +67,7 @@ fn brew_list_formulas_cmd() -> Command {
     let mut cmd = Command::new("brew");
     cmd.env("HOMEBREW_NO_AUTO_UPDATE", "1");
     cmd.arg("list");
+    cmd.arg("--formulae");
     cmd
 }
 

@@ -65,7 +65,7 @@ impl RunBrewCask for BrewCaskCommand {
 
 fn brew_list_casks_cmd() -> Command {
     let mut cmd = Command::new("brew");
-    cmd.arg("cask").arg("list");
+    cmd.arg("list").arg("--casks");
     cmd
 }
 
