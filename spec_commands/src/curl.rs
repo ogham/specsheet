@@ -85,7 +85,7 @@ impl CurlCommand {
     /// Pieces together the command to run.
     fn curl_cmd(&self, request: &HttpRequest, print_body: bool) -> Command {
         let mut cmd = Command::new("curl");
-        cmd.arg("-XGET").arg("--max-time").arg("5");
+        cmd.arg("-XGET").arg("--max-time").arg("5").arg("--http1.1");
 
         if print_body {
             cmd.arg("-i");
