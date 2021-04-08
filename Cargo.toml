@@ -48,7 +48,7 @@ horrorshow = "0.8"
 libc = "0.2"
 
 # random check order
-rand = "0.7"
+rand = "0.8"
 
 # logging
 log = "0.4"
