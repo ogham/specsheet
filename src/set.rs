@@ -307,7 +307,7 @@ fn run_base_check(ready_check: &ReadyCheck, executor: &mut Executor, commands: &
 
             CheckOutput { passed, results, message }
         }}
-    };
+    }
 
     let name = ready_check.name.as_ref();
 
